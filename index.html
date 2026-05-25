@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Data Engineering Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B132B',
+                            surface: '#1C2541',
+                            accent: '#48CAE4',
+                            muted: '#6C757D'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-accent selection:text-brand-dark">
+
+    <header class="border-b border-slate-800 sticky top-0 bg-brand-dark/80 backdrop-blur-md z-50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
+                [Your Brand Name]
+            </div>
+            <a href="#book" class="bg-white text-brand-dark px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-brand-accent hover:text-brand-dark transition-all duration-200 shadow-lg shadow-white/5">
+                Book Discovery Call
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-6xl mx-auto px-6 py-20 md:py-32 text-center relative">
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-accent/10 rounded-full blur-[120px] pointer-events-none"></div>
+            
+            <span class="text-xs font-bold uppercase tracking-widest text-brand-accent mb-4 inline-block">Data Engineering & Architecture</span>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight max-w-4xl mx-auto leading-[1.15] mb-6">
+                We Build High-Performance Data Platforms That <span class="bg-gradient-to-r from-brand-accent to-blue-400 bg-clip-text text-transparent">Slash Infrastructure Costs</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Migrate seamlessly to cutting-edge Lakehouse architectures, automate your ETL pipelines, and eliminate cloud waste without compromising on performance.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#book" class="w-full sm:w-auto text-center bg-brand-accent text-brand-dark font-bold px-8 py-4 rounded-xl hover:opacity-90 transition shadow-lg shadow-brand-accent/20">
+                    Book a Discovery Call
+                </a>
+                <a href="#case-studies" class="w-full sm:w-auto text-center border border-slate-700 hover:border-slate-500 font-semibold px-8 py-4 rounded-xl transition">
+                    View Case Studies
+                </a>
+            </div>
+        </section>
+
+        <hr class="border-slate-800 max-w-6xl mx-auto">
+
+        <section id="services" class="max-w-6xl mx-auto px-6 py-24">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Core Expertise</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Enterprise-grade data infrastructure tailored for scalability, reliability, and extreme efficiency.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-brand-surface p-8 md:p-10 rounded-2xl border border-slate-800 hover:border-slate-700 transition">
+                    <div class="w-12 h-12 bg-brand-accent/10 text-brand-accent rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v6a2 2 0 012-2m14-0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Cloud Migrations & Lakehouse Architecture</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">
+                        Transition away from legacy, rigid data setups into modern, decoupled Medallion architectures (Bronze, Silver, Gold). We design robust, automated pipelines that ensure real-time accuracy and zero downtime during cutovers.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Automated ETL/ELT pipeline deployment</li>
+                        <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Zero-downtime platform migrations</li>
+                        <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> PySpark & distributed computing optimization</li>
+                    </ul>
+                </div>
+
+                <div class="bg-brand-surface p-8 md:p-10 rounded-2xl border border-slate-800 hover:border-slate-700 transition">
+                    <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Data FinOps & Cost Optimization</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">
+                        Stop overpaying for compute and storage. We profile your current queries, identify inefficiencies, reshape data processing tiers, and tune workloads to drastically minimize operational costs while maintaining peak performance.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li class="flex items-center"><span class="text-emerald-400 mr-2">✓</span> Inefficient cluster and compute profiling</li>
+                        <li class="flex items-center"><span class="text-emerald-400 mr-2">✓</span> Storage tiering and lifecycle management</li>
+                        <li class="flex items-center"><span class="text-emerald-400 mr-2">✓</span> Predictive cost modeling and cluster tuning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="case-studies" class="bg-brand-surface/40 border-t border-b border-slate-800 py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="mb-16">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent mb-2 inline-block">Proven Results</span>
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Case Studies</h2>
+                </div>
+
+                <div class="space-y-24">
+                    <div class="grid md:grid-cols-12 gap-12 items-start">
+                        <div class="md:col-span-5">
+                            <div class="text-6xl font-black text-brand-accent mb-2">66%</div>
+                            <div class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-6">Cost-Cutting Transformation</div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 leading-tight">Platform Migration & Architecture Overhaul: Cutting Cloud Operational Costs by 66% for an Enterprise Platform.</h3>
+                            <div class="space-y-4 text-slate-400 text-sm">
+                                <p><strong class="text-white font-semibold">Situation:</strong> The client was running heavy data workloads on an expensive, all-in-one platform (Dataiku). As data scaled, licensing and compute costs became unsustainable, threatening profitability.</p>
+                                <p><strong class="text-white font-semibold">Action:</strong> We mapped their entire data ecosystem and executed a seamless migration to a modern Lakehouse architecture (Databricks). We replaced rigid, always-on infrastructure with automated, auto-scaling compute pipelines and optimized storage tiers.</p>
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 bg-brand-surface border border-slate-800 p-8 rounded-2xl shadow-inner mt-4 md:mt-0">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-brand-accent mb-6">Business Impact & Results</h4>
+                            <ul class="space-y-6">
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">66% Ongoing Reduction</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Slashed dynamic monthly cloud infrastructure and platform spend permanently.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">Zero Downtime Migration</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Achieved zero record loss or execution downtime during the massive cutover period.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">High-Performance Access</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Granted internal analytics teams direct, fast SQL access without exploding compute overhead.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="border-slate-800">
+
+                    <div class="grid md:grid-cols-12 gap-12 items-start">
+                        <div class="md:col-span-5 md:order-2">
+                            <div class="text-6xl font-black text-emerald-400 mb-2">100%</div>
+                            <div class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-6">Zero-Maintenance Implementation</div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 leading-tight">From Data Silos to Real-Time Insights: Building a Zero-Maintenance End-to-End Data Platform for E-Commerce Scaling.</h3>
+                            <div class="space-y-4 text-slate-400 text-sm">
+                                <p><strong class="text-white font-semibold">Situation:</strong> An expanding e-commerce business had data scattered across Shopify, ad platforms, and backend databases. The owner couldn't get an accurate view of true customer lifetime value (LTV) or real-time inventory without hours of manual spreadsheet work.</p>
+                                <p><strong class="text-white font-semibold">Action:</strong> We designed and deployed a unified, modern data platform from scratch. We automated data ingestion, built a structured data model (Medallion architecture) to clean the raw inputs, and served the data through lightning-fast APIs.</p>
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 md:order-1 bg-brand-surface border border-slate-800 p-8 rounded-2xl shadow-inner mt-4 md:mt-0">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-6">Business Impact & Results</h4>
+                            <ul class="space-y-6">
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-emerald-500/10 text-emerald-400 rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">100% Core Automation</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Completely eliminated over 15+ hours per week of manual data aggregation for the executive leadership team.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-emerald-500/10 text-emerald-400 rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">Sub-Second Business Reporting</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Unlocked real-time reporting metrics like CAC (Customer Acquisition Cost) and ROAS (Return on Ad Spend) instantaneously.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="flex-shrink-0 bg-emerald-500/10 text-emerald-400 rounded-lg p-2 mr-4 text-sm font-bold">✓</span>
+                                    <div>
+                                        <strong class="text-white block text-lg">Engineered for Massive Scale</strong>
+                                        <p class="text-sm text-slate-400 mt-1">Designed infrastructure to scale dynamically during massive traffic spikes (like Black Friday) without operational friction or budget overruns.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="book" class="max-w-4xl mx-auto px-6 py-24 text-center">
+            <div class="bg-gradient-to-b from-brand-surface to-brand-dark border border-slate-800 rounded-3xl p-8 md:p-16 relative overflow-hidden">
+                <div class="absolute -top-24 -right-24 w-48 h-48 bg-brand-accent/10 rounded-full blur-3xl"></div>
+                
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Ready to Optimize Your Data Infrastructure?</h2>
+                <p class="text-slate-400 max-w-lg mx-auto mb-10">
+                    Let's jump on a quick 15-minute discovery call to dissect your current pipeline bottlenecks and outline immediate technical cost-efficiency wins.
+                </p>
+                
+                <a href="#" target="_blank" class="inline-flex items-center gap-2 bg-white text-brand-dark font-bold px-8 py-4 rounded-xl hover:bg-brand-accent hover:text-brand-dark transition transform hover:-translate-y-0.5 shadow-xl shadow-black/40">
+                    <span>Book a 15-Min Discovery Call</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-900 bg-brand-dark py-8 text-center text-xs text-slate-500">
+        <p>&copy; 2026 [Your Brand Name]. All rights reserved. Professional Data Engineering Services.</p>
+    </footer>
+
+</body>
+</html>
